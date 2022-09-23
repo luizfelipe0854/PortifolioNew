@@ -1,0 +1,19 @@
+@media(max-width: 800px){
+    nav{
+        display: none;
+    }
+    header{
+        justify-content: space-between;
+    }
+
+    .container-sobre{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-sobre p {
+        width: 350px;
+        
+    }
+}
