@@ -3,9 +3,9 @@
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
-    background-color: #24252A;
+    background-color: #F0F8FF;
     font-family: 'Outfit', sans-serif;
-    color: white;
+    color: #24252A ;
 }
 
 html {
@@ -15,7 +15,7 @@ html {
 li, a, button{
     font-weight: 500;
     font-size: 16px;
-    color: white;
+    color: #F0F8FF ;
     text-decoration: none;
 }
 
@@ -23,12 +23,14 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 30px 30px 0 10px;
+    width: 100%;
     
 }
 
 .logo{
     cursor: pointer;
+    height: 50px;
 }
 
 .nav_links{
@@ -38,15 +40,16 @@ header{
 
 .nav_links li{
     display: inline-block;
-    padding: 0px 30px;
+    padding: 0px 20px;
 }
 
 .nav_links li a{
     transition: all 0.3s ease 0s;
+    color:#24252A;
 }
 
 .nav_links li a:hover{
-    color:#0088a9;
+    color:#24252A;
 }
 
 button{
@@ -59,7 +62,7 @@ button{
     font-family: 'Outfit', sans-serif;
 }
 
-#btn-contato:hover{
+button:hover{
     background-color: rgba(0, 136, 169, 0.6);
     box-shadow: 0px 0px 20px  white;
     
@@ -76,7 +79,7 @@ button{
 }
 
 p{
-    color: aliceblue;
+    color: #24252A ;
     margin-top: 25px;
     width: 500px;
     text-align: center;
@@ -98,7 +101,7 @@ p{
 }
 
 .container-tecnologias h1{
-    color: aliceblue;
+    color: #24252A;
     width: 230px;
     height: 70px;
 
@@ -144,8 +147,81 @@ p{
 }
 
 .card:hover{
-    box-shadow: 0 0 0 5px rgba(0, 136, 169, 1);   
+    box-shadow: 0 0 0 5px rgba(0, 136, 169, 1);  
 }
 
+.container-experiencias{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.container-experiencias h1{
+    color: #24252A;
+    width: 230px;
+    height: 70px;
+
+}
+
+/* MODAL */
+
+#modal-marriott, #modal-contato{
+    transition: .5s;
+    opacity: 1;
+    pointer-events: all;
+}
+
+#fade-marriott, #fade-contato{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%; 
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+
+}
+
+#modal-marriott, #modal-contato{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    background-color: #F0F8FF;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    max-width: 90%;
+    padding: 1.2rem;
+    border-radius: 20px;
+}
+
+#fechar-modal-marriott, #fechar-modal-contato{
+    background-color: rgb(129, 129, 129);
+}
+
+.header-modal{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    align-items: center;
+    font-size: 16px;
+}
+
+.header-modal.contato{
+    font-size: 20px;
+}
+
+#modal-marriott.hide,#modal-contato.hide,
+#fade-marriott.hide, #fade-contato.hide{
+    opacity: 0;
+    pointer-events: none;
+}
+
+.conteudo-modal span a{
+    color: #24252A;
+}
 

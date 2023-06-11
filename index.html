@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="responsive.css">
+                        <!--JS  -->
+    <script src="./script.js" defer></script>
     <title>teste</title>
 </head>
 <body>
@@ -16,14 +19,15 @@
                 <li><a href="#container-sobre">Quem sou eu</a></li>
                 <li><a href="#container-tecnologias-img">Tecnologias</a></li>
                 <li><a href="#curriculo">Curriculo</a></li>
+                <li><a href="#experiencias">Experiências</a></li>
                 
             </ul>
         </nav>
-        <a href="#"><button id="btn-contato">Contato</button></a>
+        <button id="abrir-modal-contato">Contato</button>
     </header>
     <main>
         <div class="container-sobre" id="container-sobre">
-            <img src="assets/eu.jpg" alt="luiz">
+            <img src="assets/eu.jpeg" alt="luiz">
             <h1>Quem sou eu? 🙋🏽‍♂️</h1>
             <p> Sempre fui apaixonado por tecnologia e isso me fez cursar Informática na ETEC, os 3 anos lá me apresentaram e me aproximaram de diversas áreas relacionadas a tecnologia, que fez com que eu escolhesse cursar Análise e Desenvolvimento de Sistemas na faculdade Eniac. Hoje busco minha primeira oportunidade de emprego na área para colocar em prática meus aprendizados da Etec e da faculdade.</p>
         </div>
@@ -39,12 +43,52 @@
             </div>
             <div class="card">
                 <img src="assets/JavaScript.png" alt="JavaScript">
-            </div>          
+            </div>
+            <div class="card">
+                <img src="assets/react.png" alt="Reactjs">
+            </div>              
         </div>
         <div class="curriculo" id="curriculo">
             <h1>Curriculo📰</h1>
-            <a href="assets/CvLuiz.pdf" download><button>Baixar Curriculo!</button></a>
+            <a href="assets/Curriculomai2023.pdf" download><button>Baixar Curriculo!</button></a>
         </div>
+        <div class="container-experiencias" id="experiencias">
+            <h1>Experiências📌</h1>
+            <span>Jovem Aprendiz - Marriott São Paulo Airport <button id="abrir-modal-marriott">Abrir</button></br></span>
+           
+        </div>
+        <div id="fade-marriott" class="hide"></div>
+        <div id="modal-marriott" class="hide">
+            <div class="header-modal"><span>Jovem Aprendiz - Marriott São Paulo Airport Hotel</span><button id="fechar-modal-marriott">Fechar</button></div>
+            <div class="conteudo-modal">
+                <span>Desempenhei tarefas no setor financeiro na área de contas a receber:</br>
+                    -Verificação de documentos.</br>
+                    -Emissão de NFe, Fatura e Boleto bancário.</br>
+                    -Faturamento para grandes empresas e companhias aéreas.</br>
+                    -Envio de documentos ao escritório corporativo.</br>
+                    -Envio de faturas em portais de grandes empresas e companhias aéreas.</br>
+                </br>
+                    Desempenhei tarefas no setor do TI:</br>
+                    -Manutenção de impressoras.</br>
+                    -Manutenção de switchs, cabos de rede e Computadores.</br>
+                    -Controle da Rede administrativa e pública do hotel.</br>
+                    -Manutenção de Hardwares.
+                    
+            </span>
+            </div>
+        </div>
+        <div id="fade-contato" class="hide"></div>
+        <div id="modal-contato" class="hide">
+            <div class="header-modal contato"><span>Contato</span><button id="fechar-modal-contato">Fechar</button></div>
+            <div class="conteudo-modal">
+                <span>
+                    E-mail: luizfelipedemeloazevedo@gmail.com </br>
+                    Celular: (11) 99618-3695</br>
+                    <a href="https://www.google.com.br" target="_blank">Github</a>
+                </span>
+            </div>
+        </div>
+        
         </main>
 </body>
 </html>
