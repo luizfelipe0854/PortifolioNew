@@ -221,7 +221,7 @@ p{
     pointer-events: none;
 }
 
-.conteudo-modal span a{
-    color: #24252A;
+.conteudo-modal>span>a{
+    color: blue;
 }
 
