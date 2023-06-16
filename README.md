@@ -1,4 +1,7 @@
 # **Portifolio** 👦🏽
+
+Project deployed => luizazevedo.netlify.app
+
 ## About 📌
 This project was created with the intention of publicizing my work as a developer and showing my skills with some of the technologies I know
 
@@ -24,7 +27,5 @@ code .
 ```
 ## Contact 📞
 My email => luizfelipedemeloazevedo@gmail.com
-
-Project deployed => luizazevedo.netlify.app
 
 ### Thank you for your attention, I hope you liked it
