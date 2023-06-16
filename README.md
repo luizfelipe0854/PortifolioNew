@@ -1,6 +1,6 @@
 # **Portifolio** 👦🏽
 
-Project deployed => luizazevedo.netlify.app
+[PortifolioLink](https://luizazevedo.netlify.app)
 
 ## About 📌
 This project was created with the intention of publicizing my work as a developer and showing my skills with some of the technologies I know
