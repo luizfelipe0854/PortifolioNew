@@ -1,10 +1,13 @@
 # **Portifolio** 👦🏽
+
+[Link to my portfolio](https://luizazevedo.netlify.app)
+
 ## About 📌
 This project was created with the intention of publicizing my work as a developer and showing my skills with some of the technologies I know
 
 ![PortMainScreen](https://github.com/luizfelipe0854/PortifolioNew/blob/master/assets/icons/pagephoto.jpg)
 
-I made this portfolio because I needed to show a little about myself, about the technologies I know and train my skills, this ortfolio over time will be updated with my evolutions and projects.
+I made this portfolio because I needed to show a little about myself, about the technologies I know and train my skills, this portfolio over time will be updated with my evolutions and projects.
 ## Created with 👨🏽‍💻
 + HTML5
 + CSS3
@@ -24,7 +27,5 @@ code .
 ```
 ## Contact 📞
 My email => luizfelipedemeloazevedo@gmail.com
-
-Project deployed => luizazevedo.netlify.app
 
 ### Thank you for your attention, I hope you liked it
